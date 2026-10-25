@@ -3,7 +3,7 @@
 !!! note "About This Section"
     This page documents the historical operating policies, community contribution standards, volunteer distribution network, and commercial advertising guidelines that sustained *The Villager* as a monthly print publication from May 1958 through 2008.
 
-[📰 **Explore the Complete Digital Archive (213 Issues)**](Issues/index.md){ .md-button .md-button--primary }
+[📰 **Explore the Complete Digital Archive (442 Issues)**](Issues/index.md){ .md-button .md-button--primary }
 
 ---
 
@@ -77,4 +77,4 @@ Commercial advertising was the financial backbone of *The Villager*, covering 10
 
 Between 2002 and 2008, LVNA webmaster Brian Smithson led a major community effort to locate, scan, and preserve original copies of *The Villager* and *LVRA Villager* from neighborhood attics, filing cabinets, and past board members. That collection forms the backbone of the digital archive presented on this website today.
 
-To explore all 213 scanned and transcribed issues, visit the **[Complete Issues Archive (1958-2007)](Issues/index.md)**.
+To explore all 442 scanned and transcribed issues spanning 1958 through 2026, visit the **[Complete Issues Archive (1958-2026)](Issues/index.md)**.

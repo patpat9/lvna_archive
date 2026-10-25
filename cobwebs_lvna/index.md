@@ -30,7 +30,7 @@ Lakewood Village is a distinctive mid-century neighborhood in northern Sunnyvale
 
     ---
 
-    Browse 50 years of *The Villager* and vintage *LVRA Villager* newsletters. Search across 213 preserved issues with digital transcripts and embedded PDF readers.
+    Browse over six decades of *The Villager* and vintage *LVRA Villager* newsletters. Search across 442 preserved issues (1958–2026) with digital transcripts and embedded PDF readers.
 
 -   🏡 **[Neighborhood History](LV/History/history.md)**
 
