@@ -1,0 +1,119 @@
+{
+  "title": "City of Sunnyvale - FEMA BFE vs USGS 3DEP Flood Depth Model",
+  "bounds": {
+    "west": -122.065,
+    "south": 37.335,
+    "east": -121.985,
+    "north": 37.445,
+    "coordinates": [
+      [
+        -122.065,
+        37.445
+      ],
+      [
+        -121.985,
+        37.445
+      ],
+      [
+        -121.985,
+        37.335
+      ],
+      [
+        -122.065,
+        37.335
+      ]
+    ]
+  },
+  "grid": {
+    "width": 400,
+    "height": 550,
+    "pixel_size_meters_approx": 18.5
+  },
+  "units": {
+    "elevation": "Feet NAVD88",
+    "depth": "Feet"
+  },
+  "stats": {
+    "dem_min_ft": -3.1509768962860107,
+    "dem_max_ft": 287.3465881347656,
+    "max_flood_depth_ft": 50.0,
+    "total_pixels": 220000,
+    "sfha_pixels": 66234,
+    "sfha_dry_pixels": 4170,
+    "shallow_pixels": 2405,
+    "moderate_pixels": 7325,
+    "deep_pixels": 52334,
+    "x500_pixels": 80981
+  },
+  "classification": {
+    "dry": {
+      "label": "Ground Above Flood Level (Dry / Low Risk)",
+      "range": "Water Depth <= 0 ft",
+      "color": "#4CAF50"
+    },
+    "shallow": {
+      "label": "Shallow Flooding Risk (\u6d45\u6c34\u6df9\u6ca1\u98ce\u9669)",
+      "range": "0 < Depth <= 1 ft",
+      "color": "#FFC107"
+    },
+    "moderate": {
+      "label": "Moderate Flooding Risk (\u4e2d\u5ea6\u6df9\u6ca1\u98ce\u9669)",
+      "range": "1 < Depth <= 3 ft",
+      "color": "#FF5722"
+    },
+    "deep": {
+      "label": "Deep Water High Risk (\u6df1\u6c34\u9ad8\u5371\u533a)",
+      "range": "Depth > 3 ft",
+      "color": "#B71C1C"
+    },
+    "x500": {
+      "label": "500-Year Flood Zone (0.2% Annual Chance)",
+      "range": "Moderate Risk",
+      "color": "#2196F3"
+    }
+  },
+  "key_locations": [
+    {
+      "name": "Lakewood Village (North Sunnyvale)",
+      "lat": 37.4095,
+      "lon": -122.0085,
+      "zoom": 15,
+      "desc": "Historic neighborhood adjacent to Calabazas Creek and Baylands; contains Zone AE & AH fringes."
+    },
+    {
+      "name": "Calabazas Creek at Hwy 237",
+      "lat": 37.4055,
+      "lon": -122.002,
+      "zoom": 15.5,
+      "desc": "Major flood conveyance channel with BFE contours from 11 ft to 15 ft NAVD88."
+    },
+    {
+      "name": "Sunnyvale Baylands Park",
+      "lat": 37.419,
+      "lon": -122.002,
+      "zoom": 14.5,
+      "desc": "Tidal marshland and low-elevation flood detention basin directly buffering SF Bay."
+    },
+    {
+      "name": "Sunnyvale West Channel / Fair Oaks",
+      "lat": 37.404,
+      "lon": -122.028,
+      "zoom": 15,
+      "desc": "Engineered floodway and AE zone channel flowing north to the bay."
+    },
+    {
+      "name": "Sunnyvale Downtown (Murphy Ave)",
+      "lat": 37.3775,
+      "lon": -122.0305,
+      "zoom": 15,
+      "desc": "High ground (~100 ft NAVD88) well outside the 100-year and 500-year flood zones."
+    },
+    {
+      "name": "Heritage District",
+      "lat": 37.371,
+      "lon": -122.035,
+      "zoom": 15,
+      "desc": "Residential zone in Central Sunnyvale with minimal flood hazard (Zone X)."
+    }
+  ]
+}
