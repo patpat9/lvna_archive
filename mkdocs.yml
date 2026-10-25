@@ -51,7 +51,6 @@ nav:
       - Governance & Organization: LVNA/lvna.md
   - Community Resources:
       - Civic Directory & Reference: Resources/resources.md
-      - South Bay Flood Risk Explorer: flood_map.md
       - About LVNA.NET: Miscellany/About_LVNA_NET/about_lvna_net.md
 
 plugins:

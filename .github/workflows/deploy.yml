@@ -36,7 +36,6 @@ jobs:
       - name: Build site
         run: |
           mkdocs build
-          cp -r flood_map_app ./site/flood-map
           touch ./site/.nojekyll
 
       - name: Upload artifact

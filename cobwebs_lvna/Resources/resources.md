@@ -81,6 +81,7 @@ A curated directory of local civic, educational, informational, and news links s
 - **Sunnyvale Municipal Code:** [Sunnyvale Municipal Code](https://www.sunnyvale.ca.gov) - Local ordinances, zoning standards, and neighborhood preservation guidelines.
 - **County of Santa Clara:** [sccgov.org](https://www.sccgov.org) - County public health, property tax assessor, and social services.
 - **State of California:** [ca.gov](https://www.ca.gov) - State government services, DMV, and California legislative records.
+- **Bay Area Adapting to Rising Tides (ART):** [explorer.adaptingtorisingtides.org](https://explorer.adaptingtorisingtides.org/explorer) - Regional sea level rise, coastal flooding, and shoreline vulnerability mapping tool covering San Francisco Bay and the South Bay.
 
 ### Schools and Educational Institutions
 
