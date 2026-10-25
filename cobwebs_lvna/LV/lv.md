@@ -60,7 +60,7 @@ Located at Lakechime Drive and Silverlake Drive adjacent to Lakewood Elementary 
 ### Fairwood Park & The John W. Christian Greenbelt
 
 - **Fairwood Park:** Located on the east side of Lawrence Expressway adjacent to Fairwood Elementary, providing open playfields, children's playground equipment, and walking paths.
-- **The John W. Christian Greenbelt:** Landscaped walking corridor established along the Hetch-Hetchy aqueduct right-of-way. It was dedicated by the City of Sunnyvale and LVNA in 2002 to honor long-time neighborhood civic leader John W. Christian.
+- **The John W. Christian Greenbelt:** Landscaped walking corridor established along the Hetch-Hetchy aqueduct right-of-way. It was dedicated by the City of Sunnyvale and LVNA in 2002 to honor neighborhood leader and Sunnyvale Director of Parks and Recreation John W. Christian (1946–1996), who led the development of nearby Sunnyvale Baylands Park and expanded open space and recreational facilities across the city.
 
 | Fairwood Park Equipment | John W. Christian Greenbelt |
 | :---: | :---: |
@@ -128,6 +128,7 @@ The 2000s archive documented Lakewood Village's transit connections to major Sil
 ### Public Transit as Documented in the 2000s
 
 During the archive era, Lakewood Village was directly served by Santa Clara Valley Transportation Authority (VTA) light rail and bus lines:
+
 - **VTA Light Rail (Vienna Station):** Situated on Tasman Drive near Lawrence Expressway, Vienna Station provided residents with direct light rail access west to downtown Mountain View and east toward Milpitas, with transfers at Baypointe for San Jose International Airport and downtown San Jose.
 - **VTA Local Bus Line 55:** Ran through Lakewood Village to provide north-south transit connecting to the Sunnyvale Civic Center, downtown Sunnyvale, and De Anza College.
 - **Caltrain Commuter Rail:** Accessible via **Lawrence Station** south of Highway 101, providing passenger rail connections to San Francisco, the Peninsula, San Jose, and Gilroy.

@@ -52,17 +52,20 @@ During the period captured in this archive, the association was led by five elec
 Historically, the LVNA conducted three distinct types of meetings to manage projects, review city policies, and engage tract residents:
 
 ### 1. General Meetings
+
 - **Audience:** Open to all Lakewood Village homeowners, tenants, and invited guests.
 - **Schedule:** Held on the second Wednesday of each month at 7:00 PM.
 - **Locations:** Rotated between the Lakewood Park Building, Lakewood Elementary Multi-Purpose Room, and Fairwood Elementary Multi-Purpose Room.
 - **Agenda:** Featured presentations from Sunnyvale Public Safety officers, local school district trustees, City Council members, and community updates, followed by open public question-and-answer periods.
 
 ### 2. Board Meetings
+
 - **Audience:** Elected executive officers and key appointed coordinators.
 - **Schedule:** Held monthly at least fourteen days prior to each general meeting.
 - **Agenda:** Reviewing association budgets, approving event permits with the City of Sunnyvale, setting upcoming general meeting agendas, and managing newsletter production schedules.
 
 ### 3. Special Meetings
+
 - **Purpose:** Convened when urgent neighborhood issues arose requiring immediate collective action, such as proposed municipal zoning amendments, airport flight path noise disputes, or school attendance boundary realignments.
 - **Notice:** Required seven days advance written notice delivered to all tract households.
 
@@ -171,6 +174,7 @@ The association was governed by its official by-laws throughout the archive era.
     The Board of Directors, hereinafter referred to as the Board, shall be composed of five (5) members: President, 1st Vice President, 2nd Vice President, Secretary, and Treasurer.
 
     <div class="bylaw-section-header"><strong>Section 2: Duties of the Board</strong></div>
+    
     1. **Management:** The affairs of the LVNA shall be managed by the Board. The Board shall be accountable to the Membership; shall seek the views of those affected by any proposed policies or actions before adopting any recommendations on behalf of LVNA; and shall strictly comply with these bylaws.
     2. **Vacancies:** The Board may fill any vacancy on the Board or Committee by a majority vote of the Board. This must be ratified by the Membership at the next General Meeting. The appointee shall serve the remainder of the unexpired term.
     3. In cases where a Board or Committee Member has missed three (3) Meetings, the Board is required to consider replacement of that Member. Members to be replaced shall be notified in writing by the Board of Directors.
@@ -179,6 +183,7 @@ The association was governed by its official by-laws throughout the archive era.
     The Board shall meet at least fourteen (14) days prior to any General or Special Meeting or at any other time the President or Board designates. These Meetings shall be open sessions; however, only Board Members may vote. A Quorum for Board Meetings shall be three (3) Members, and decisions shall be made by majority vote.
 
     <div class="bylaw-section-header"><strong>Section 4: Terms of Office</strong></div>
+    
     1. All Members of the Board of Directors shall be elected for a one (1) year term.
     2. The term for all elected Board Members shall officially begin on the second Wednesday of March of the year in which they are elected and continue through until the second Wednesday of the next year.
     3. The term of any one elected Board Member shall be limited to three (3) consecutive terms in any Office.
@@ -188,6 +193,7 @@ The association was governed by its official by-laws throughout the archive era.
     <div id="article-viii-duties-of-the-officers" class="bylaw-article-header"><strong>ARTICLE VIII. DUTIES OF THE OFFICERS</strong></div>
 
     <div class="bylaw-section-header"><strong>Section 1: President</strong></div>
+    
     1. The President shall be an Ambassador for the LVNA.
     2. The President shall prepare the Agenda and preside at all Meetings of the Board and Membership.
     3. The President shall chair the Budget Committee, which will review, maintain, and forecast future expenditures and income for the Association and report back to the Board Members their findings and/or proposals for the year.
@@ -196,6 +202,7 @@ The association was governed by its official by-laws throughout the archive era.
     6. The President shall vote only to break a tie vote of the Board and Membership.
 
     <div class="bylaw-section-header"><strong>Section 2: 1st Vice President</strong></div>
+    
     1. The 1st Vice President shall be an Ambassador for LVNA.
     2. In the absence of the President or the vacancy of the office of President, the 1st Vice President shall assume the role of the President and serve the remainder of the President's term upon a majority vote of the Board and ratified by the Membership.
     3. The 1st Vice President shall chair the Publicity Committee, which includes overseeing the Newsletter Committee. In addition, the 1st Vice President will be responsible for preparing written or verbal information regarding the Association, such as press releases and flyers.
@@ -203,12 +210,14 @@ The association was governed by its official by-laws throughout the archive era.
     5. The 1st Vice President shall be responsible for keeping attendance records of the Board Members.
 
     <div class="bylaw-section-header"><strong>Section 3: 2nd Vice President</strong></div>
+    
     1. The 2nd Vice President shall be an Ambassador for LVNA.
     2. In the absence of both the President and 1st Vice President, the 2nd Vice President shall assume the role of President.
     3. The 2nd Vice President shall serve as Parliamentarian.
     4. The 2nd Vice President shall chair the Grievance Committee.
 
     <div class="bylaw-section-header"><strong>Section 4: Secretary</strong></div>
+    
     1. The Secretary shall be an Ambassador for LVNA.
     2. The Secretary will be responsible for posting Meeting dates for the year and/or any schedule modifications.
     3. The Secretary shall take minutes at every Board, General, and Special Meeting.
@@ -216,6 +225,7 @@ The association was governed by its official by-laws throughout the archive era.
     5. The Secretary shall provide the Board with previous minutes for adoption at the beginning of each Meeting.
 
     <div class="bylaw-section-header"><strong>Section 5: Treasurer</strong></div>
+    
     1. The Treasurer shall be an Ambassador for LVNA.
     2. The Treasurer shall keep true and accurate records of all financial transactions on behalf of the LVNA.
     3. The Treasurer shall deliver an oral report of the financial status of the Association at each regular Board, General, and Special Meeting.

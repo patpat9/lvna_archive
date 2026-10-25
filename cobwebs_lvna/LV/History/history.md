@@ -19,6 +19,7 @@
 - [The 1990s: Environmental Monitoring & Rebirth](#the-1990s-environmental-monitoring-and-rebirth)
 - [Physical Evolution & USGS Cartography (1970s-1990s)](#physical-evolution-and-usgs-cartography-1970s-1990s)
 - [The 2000s: 50th Anniversary & Preservation](#the-2000s-50th-anniversary-and-preservation)
+- [The Modern Era: 2010s to 2026](#the-modern-era-civic-investment-and-environmental-stewardship-2010s-2026)
 - [Demographics & Historical Census Records](#demographics-and-historical-census-records)
 - [Local History Bibliography & References](#local-history-bibliography-and-references)
 
@@ -69,15 +70,25 @@ Like most of the Santa Clara Valley, the land now occupied by Lakewood Village w
 
 ### Santa Clara Valley Airport (1945-1955)
 
-Just after World War II, a group of ten private investors purchased 250 acres in what is now the Fairwood side of Lakewood Village and established the **Santa Clara Valley Airport**. The property was graded with a grass-and-dirt runway, a mechanic's maintenance hangar, and a flight office, serving local amateur aviators until the parcel was sold for residential development in 1955.
+Just after World War II, a group of ten private investors led by aviator Harold Willson (son of Frank Chapman Willson, a prominent local orchardist renowned for "Willson's Wonder Walnuts") purchased 128 acres in what is now the Fairwood side of Lakewood Village for $70,400 in 1946 to establish the **Santa Clara Valley Airport**. Driven by the inconvenience of commuting to Palo Alto to fly their personal planes (such as Willson's Globe Swift), the group constructed a 2,100-foot paved runway, an administrative flight office, a mechanics' shop, and a 60-by-80-foot maintenance hangar capable of housing ten aircraft.
 
-| Historical Airfield Footprint & Subdivision Overlay (1940s) |
+The airfield served regional private aviators, flight training operations, and social gatherings for pilots until operations concluded after two years and seventeen days. The hangar structures were subsequently dismantled and relocated to Hayward Airport and San Jose Municipal. The land was leased until 1956, when it was purchased for almost $400,000 by Branden Construction Company to begin building Lakewood Village.
+
+#### Archival Master Photographs (Sunnyvale Historical Society Collection)
+
+| Historical Airfield Footprint & Subdivision Overlay | 1940s Santa Clara Valley Airport Aerial |
+| :---: | :---: |
+| [![Historical Airfield View](../../Resources/Maps/Historical/historical-view.gif)](../../Resources/Maps/Historical/historical-view.gif){ .glightbox }<br>*1940s aerial photograph with Santa Clara Valley Airport and future Lakewood Village perimeter outlined in red* | [![SCV Airport Aerial](Before_1950/Airport/scv_airport_aerial_1940s-small.jpg)](Before_1950/Airport/scv_airport_aerial_1940s.jpg){ .glightbox }<br>*Archival aerial photograph of the active runway, hangars, and agricultural orchards (Sunnyvale Historical Society)* |
+
+| Harold Willson Beside Aircraft | Early Northern Sunnyvale Aerial (Bayshore & Lawrence) |
+| :---: | :---: |
+| [![Harold Willson Aircraft](Before_1950/Airport/harold_willson_aircraft-small.jpg)](Before_1950/Airport/harold_willson_aircraft.jpg){ .glightbox }<br>*Airfield founder Harold Willson standing beside his Globe Swift plane (Sunnyvale Historical Society)* | [![Northern Sunnyvale Aerial](Before_1950/Airport/northern_sunnyvale_aerial_early-small.jpg)](Before_1950/Airport/northern_sunnyvale_aerial_early.jpg){ .glightbox }<br>*High-altitude aerial view of northern Sunnyvale prior to suburban tract development (Sunnyvale Historical Society)* |
+
+| Early Sunnyvale Road Map (Bayshore / US-101 Era) |
 | :---: |
-| ![Historical Airfield View](../../Resources/Maps/Historical/historical-view.gif)<br>*1940s aerial photograph with Santa Clara Valley Airport and future Lakewood Village perimeter outlined in red* |
+| [![Vintage Sunnyvale Map](Before_1950/Airport/vintage_sunnyvale_map-small.jpg)](Before_1950/Airport/vintage_sunnyvale_map.jpg){ .glightbox }<br>*Mid-century road map of Sunnyvale showing Bayshore Freeway and future tract corridors (Sunnyvale Historical Society)* |
 
-Running through the center of the photo is what later became Lawrence Expressway, with Bayshore Highway (US-101) to the south. In the lower-left quadrant was the active airfield, occupying what is now the Fairwood side of Lakewood Village.
-
-#### Vintage Airfield Photographs (Late 1940s - Early 1950s)
+#### Vintage Airfield Snapshots (1950s Photographic Record)
 
 | Runway & Maintenance Hangar | Airfield Operations & Aircraft |
 | :---: | :---: |
@@ -230,12 +241,42 @@ Between 1970 and 1995, northern Sunnyvale transitioned rapidly from a quiet subu
 | **2001** | March | Newly landscaped Hetch-Hetchy right-of-way opens for neighborhood recreation. |
 | | October | Remodeled Lakewood Village home receives a prestigious design award from the American Institute of Architects (AIA). |
 | | November | Former LVNA President Frederik Fowler is elected Mayor of Sunnyvale. |
-| **2002** | June | City and LVNA launch Neighborhood Improvement Pilot Program. Hetch-Hetchy greenbelt is dedicated as **The John W. Christian Greenbelt**. |
+| **2002** | June | City and LVNA launch Neighborhood Improvement Pilot Program. Hetch-Hetchy greenbelt is dedicated as **The John W. Christian Greenbelt**, honoring neighborhood leader and Sunnyvale Parks & Recreation Director John W. Christian. |
 | | September | Resident webmaster Brian Smithson launches **LVNA.NET**, beginning a six-year campaign to scan vintage newsletters and photograph community milestones. |
 | **2003** | March | County and City complete intersection and signalization improvements on Lawrence Expressway at Lakehaven. |
 | **2004** | September | Lakewood Park Building rededication following historic interior and window renovations. |
 | **2005** | August | **Lakewood Village 50th Anniversary (1955-2005):** Community celebrates five decades with historical retrospectives in *The Villager* and special anniversary picnic. |
 | **2007** | January | Fairwood Elementary School celebrates its 50th anniversary. |
+
+### Civic Profile: John W. Christian (1946–1996) and the Greenbelt
+
+In June 2002, the City of Sunnyvale and the LVNA formally dedicated the landscaped Hetch-Hetchy aqueduct right-of-way as **The John W. Christian Greenbelt**. The corridor honors John W. Christian, a dedicated Sunnyvale resident, youth booster, and the City's transformative Director of Parks and Recreation from 1988 until his death from prostate cancer in 1996 at age 50.
+
+During his eight-year tenure leading Sunnyvale's Parks and Recreation Department, Christian directed over 100 staff members and pioneered progressive open space programs that gained statewide acclaim. He spearheaded the design and 1994 opening of **Sunnyvale Baylands Park** (converting 177 acres of raw bayside land into 72 developed park acres and 105 acres of protected seasonal wetlands), championed the $3.5 million **Columbia Neighborhood Center** to serve youth and families in North Sunnyvale, and received the City's Distinguished Citizen of the Year Award. His dedication to community parks left a lasting civic legacy across Sunnyvale and Lakewood Village.
+
+- [📄 San Jose Mercury News: "Sunnyvale Official Remembered" Feature (PDF)](John_W_Christian/JC%20News%204.pdf)
+- [📄 San Jose Mercury News: John W. Christian Obituary & Civic Tributes (PDF)](John_W_Christian/JC%20News%2012.pdf)
+
+---
+
+## The Modern Era: Civic Investment and Environmental Stewardship (2010s-2026)
+
+Recent decades have brought major public investments, civic milestones, and community-led stewardship initiatives to Lakewood Village:
+
+| Year | Month | Event / Milestone |
+| :---: | :--- | :--- |
+| **2021** | June | Sunnyvale Historical Society publishes comprehensive pre-history and development research on Lakewood Village in *The Villager*. |
+| | August | Sunnyvale City Council initiates municipal redistricting; District 6 is established representing Lakewood Village. |
+| **2023** | June | Community members and LVNA launch the **Sunnyvale Equity in Education (SEE)** advocacy campaign, petitioning the Fremont Union High School District (FUHSD) for equitable high school access and North Sunnyvale facilities. |
+| **2024** | September | **Lakewood Branch Library Groundbreaking:** On September 5, 2024, civic leaders break ground on the new permanent Lakewood Branch Library and Learning Center at Lakewood Park, scheduled for opening in 2026. |
+| | October | **501(c)(3) Nonprofit Status:** LVNA officially incorporates as a recognized 501(c)(3) charitable nonprofit organization. |
+| **2024–2025** | Ongoing | **Calabazas Creek Adopt-A-Creek Stewardship:** Continuing a six-decade tradition of flood control advocacy and ecological stewardship, neighborhood volunteers partner with Valley Water (Santa Clara Valley Water District) for regular creek cleanup and restoration events. |
+
+### Modern Community Milestones
+
+| Lakewood Branch Library Groundbreaking (Sept 5, 2024) | Calabazas Creek Adopt-A-Creek Volunteer Cleanup |
+| :---: | :---: |
+| [![Lakewood Library Groundbreaking](Modern/lakewood_library_groundbreaking_2024-small.jpg)](Modern/lakewood_library_groundbreaking_2024.jpg){ .glightbox }<br>*Sunnyvale Mayor Larry Klein, SSD Superintendent Dr. Michael Gallagher, FUHSD Superintendent Graham Clark, and City Manager Tim Kirby at the official library groundbreaking ceremony* | [![Calabazas Creek Cleanup](Modern/calabazas_creek_cleanup_2025-small.jpg)](Modern/calabazas_creek_cleanup_2025.jpg){ .glightbox }<br>*Neighborhood volunteers conducting stream cleanup and environmental restoration along Calabazas Creek in partnership with Valley Water* |
 
 ---
 
@@ -262,6 +303,7 @@ US Census Bureau records from 1970 through 2000 illustrate the evolution of Lake
 ### 2000 Census Geographic Hierarchy & Tract Boundaries
 
 For federal census administration, Lakewood Village was geographically divided into two primary census tracts along the Lawrence Expressway corridor:
+
 - **Lakewood Side (West):** Census Tract **5048.06** (Unit 2 and Unit 4).
 - **Fairwood Side (East):** Census Tract **5048.02** (Unit 1 and Unit 3).
 

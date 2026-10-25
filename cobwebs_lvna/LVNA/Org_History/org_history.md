@@ -24,6 +24,7 @@ The predecessor to today's Lakewood Village Neighborhood Association was the **L
 ### Grassroots Organization and Membership
 
 The LVRA was established as a grassroots civic body to represent homeowner interests before the City of Sunnyvale and Santa Clara County. The association operated with a multi-tiered volunteer structure:
+
 - **Elected Officers:** President, Vice Presidents, Secretary, and Treasurer.
 - **Unit Representatives:** Dedicated coordinators overseeing each of the neighborhood's four development units.
 - **Block Captains:** Resident volunteers assigned to individual blocks to deliver announcements and collect feedback.
@@ -35,6 +36,7 @@ At its peak in the early 1960s, LVRA membership exceeded 1,000 households, estab
 ### Foundational Accomplishments
 
 During its first decade, the LVRA achieved numerous milestones that permanently shaped the character of Lakewood Village:
+
 - **Founded *The Villager* (May 1958):** Launched a monthly community publication delivered door-to-door by resident volunteers to keep neighbors informed on local schools, zoning, and civic affairs.
 - **Defeated the Slaughterhouse Proposal:** Successfully mobilized neighborhood opposition and lobbied the City Council to reject a commercial livestock slaughterhouse proposed for agricultural land immediately adjacent to the subdivision.
 - **Secured Lakewood Fire Station:** Successfully lobbied the City of Sunnyvale to construct Fire Station No. 5 near the neighborhood to provide rapid emergency and fire response.
@@ -48,6 +50,7 @@ During its first decade, the LVRA achieved numerous milestones that permanently 
 By the mid-1970s, as the original generation of subdivision children grew up and founding organizers stepped down, the LVRA gradually became dormant. For approximately fifteen years, Lakewood Village lacked an organized neighborhood-wide association.
 
 In the autumn of 1991, an energetic group of residents gathered to revive the organization. On **October 16, 1991**, the neighborhood association was formally re-established as the **Lakewood Village Neighborhood Association (LVNA)** under three core founding purposes:
+
 1. **Education and Awareness:** Providing residents with timely, factual information regarding municipal issues, local schools, traffic, and public safety.
 2. **Community Fellowship:** Creating regular social opportunities for neighbors to meet, interact, and build lasting friendships.
 3. **Neighborhood Unity:** Bridging both halves of the tract across Lawrence Expressway into a single, cohesive community.
@@ -57,6 +60,7 @@ In the autumn of 1991, an energetic group of residents gathered to revive the or
 ## The Modern LVNA Era (1991-2008)
 
 The modern LVNA adopted a more inclusive, progressive operational model:
+
 - **No Mandatory Dues:** Unlike the historical LVRA, the modern LVNA eliminated membership fees. Every homeowner and tenant residing within the boundaries was automatically a full voting member of the association.
 - **Self-Sustaining Funding:** Operations, community events, and the monthly printing of *The Villager* were funded entirely through advertising revenue generated from local businesses and service providers.
 - **Streamlined Volunteer Governance:** The association operated with five elected executive board members and a handful of appointed program coordinators, replacing the complex hierarchical committees of earlier decades.
@@ -65,7 +69,8 @@ The modern LVNA adopted a more inclusive, progressive operational model:
 ### Major Community Projects (1990s-2000s)
 
 During the period captured in this digital archive, the LVNA collaborated closely with the City of Sunnyvale on major civic enhancements:
-- **The John W. Christian Greenbelt (2002):** Successfully partnered with municipal planners and the Santa Clara Valley Water District to landscape and pave the Hetch-Hetchy aqueduct right-of-way, creating a landscaped walking corridor dedicated in honor of long-time neighborhood leader John W. Christian.
+
+- **The John W. Christian Greenbelt (2002):** Successfully partnered with municipal planners and the Santa Clara Valley Water District to landscape and pave the Hetch-Hetchy aqueduct right-of-way, creating a landscaped walking corridor dedicated in honor of neighborhood leader and Sunnyvale Director of Parks and Recreation John W. Christian (1946–1996), who championed citywide open space, created Sunnyvale Baylands Park, and advanced North Sunnyvale recreation facilities.
 - **Fairwood Park Modernization:** Lobbied for and guided extensive municipal park renovations, modern playground equipment, and pathway lighting at Fairwood Park.
 - **Traffic Calming and Pedestrian Safety:** Coordinated with Sunnyvale Public Safety and Traffic Engineering to install pedestrian crossing enhancements, radar speed monitors, and neighborhood entrance signage.
 - **Revival of Heritage Traditions:** Restored the Holiday Parade, Holiday Lighting Contest, Dumpster Days cleanups, and Summer Picnics to regular annual events.
@@ -75,6 +80,7 @@ During the period captured in this digital archive, the LVNA collaborated closel
 ## Civic Leadership and Community Impact
 
 The LVNA has historically served as a training ground and springboard for residents who went on to broader civic leadership roles across Sunnyvale and Silicon Valley:
+
 - **Frederik Fowler:** Long-time LVNA officer and newsletter contributor who was elected to the Sunnyvale City Council and served as Mayor of the City of Sunnyvale.
 - **Vicki Piazza:** Active LVNA leader and community organizer who was appointed to and served as Chairperson of the Sunnyvale Planning Commission.
 - **Jessica Lee:** Neighborhood volunteer who was elected to the Fremont Union High School District (FUHSD) Board of Trustees and served as Board President.
