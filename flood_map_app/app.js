@@ -1,21 +1,22 @@
 /**
- * Sunnyvale Flood Risk Explorer
+ * South Bay (Santa Clara County) Flood Risk Explorer
  * Pure Frontend Rendering + Static Snapshot Architecture
  * 
  * Implements: Water Depth = R_BFE - R_DEM
  */
 
-// Bounding box for Sunnyvale model
+// Bounding box for South Bay (Santa Clara County) model
+// Covers Palo Alto, Mountain View, Sunnyvale, Santa Clara, San Jose, Milpitas, Campbell, Cupertino, Los Gatos, Alviso
 const BOUNDS = {
-  west: -122.065,
-  south: 37.335,
-  east: -121.985,
-  north: 37.445
+  west: -122.18,
+  south: 37.18,
+  east: -121.75,
+  north: 37.48
 };
 
 const GRID_SIZE = {
-  width: 400,
-  height: 550
+  width: 1000,
+  height: 700
 };
 
 // State
@@ -86,16 +87,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // Map Initialization
 function initMap() {
-  const sunnyvaleCenter = [37.4000, -122.0250];
+  const southBayCenter = [37.3600, -121.9600];
   const maxBounds = [
-    [BOUNDS.south - 0.05, BOUNDS.west - 0.05],
-    [BOUNDS.north + 0.05, BOUNDS.east + 0.05]
+    [BOUNDS.south - 0.08, BOUNDS.west - 0.08],
+    [BOUNDS.north + 0.08, BOUNDS.east + 0.08]
   ];
 
   map = L.map('map', {
-    center: sunnyvaleCenter,
-    zoom: 13,
-    minZoom: 12,
+    center: southBayCenter,
+    zoom: 11,
+    minZoom: 10,
     maxZoom: 18,
     maxBounds: maxBounds,
     zoomControl: false
@@ -116,50 +117,43 @@ function initMap() {
 // Load metadata
 async function loadMetadata() {
   try {
-    const res = await fetch('data/metadata.json');
+    const res = await fetch('data/south_bay/south_bay_metadata.json');
     metadata = await res.json();
     renderLocationPills(metadata.key_locations);
   } catch (err) {
-    console.warn("Could not load metadata.json:", err);
+    console.warn("Could not load south_bay_metadata.json, trying fallback:", err);
+    try {
+      const res = await fetch('data/metadata.json');
+      metadata = await res.json();
+      renderLocationPills(metadata.key_locations);
+    } catch (e) {}
   }
 }
 
 // Initialize data loading (High-precision Binary buffer + fallback to opaque PNG canvas)
 async function initLookupData() {
   try {
+    const res = await fetch('data/south_bay/south_bay_lookup_data.bin');
+    if (res.ok) {
+      const buffer = await res.arrayBuffer();
+      lookupDataView = new DataView(buffer);
+      lookupLoaded = true;
+      console.log("High-precision South Bay binary flood data loaded successfully.");
+      return;
+    }
+  } catch (err) {
+    console.warn("South Bay binary data fetch failed, trying Sunnyvale fallback:", err);
+  }
+
+  try {
     const res = await fetch('data/flood_lookup_data.bin');
     if (res.ok) {
       const buffer = await res.arrayBuffer();
       lookupDataView = new DataView(buffer);
       lookupLoaded = true;
-      console.log("High-precision binary flood data loaded successfully.");
       return;
     }
-  } catch (err) {
-    console.warn("Binary data fetch failed, trying PNG fallback:", err);
-  }
-
-  // Fallback to Canvas with opaque PNG (Alpha = 255)
-  return new Promise((resolve) => {
-    lookupCanvas = document.createElement('canvas');
-    lookupCanvas.width = GRID_SIZE.width;
-    lookupCanvas.height = GRID_SIZE.height;
-    lookupCtx = lookupCanvas.getContext('2d', { willReadFrequently: true });
-
-    const lookupImg = new Image();
-    lookupImg.crossOrigin = 'anonymous';
-    lookupImg.src = 'data/flood_lookup_data.png';
-    lookupImg.onload = () => {
-      lookupCtx.drawImage(lookupImg, 0, 0);
-      lookupLoaded = true;
-      console.log("Fallback lookup raster loaded into canvas.");
-      resolve();
-    };
-    lookupImg.onerror = () => {
-      console.error("Failed to load fallback lookup raster.");
-      resolve();
-    };
-  });
+  } catch (e) {}
 }
 
 // Load precomputed static flood depth heatmap
@@ -169,7 +163,7 @@ function loadRasterHeatmap() {
     [BOUNDS.north, BOUNDS.east]
   ];
 
-  heatmapLayer = L.imageOverlay('data/flood_depth_heatmap.png', imageBounds, {
+  heatmapLayer = L.imageOverlay('data/south_bay/south_bay_depth_heatmap.png', imageBounds, {
     opacity: 0.85,
     interactive: false,
     zIndex: 400
@@ -179,7 +173,7 @@ function loadRasterHeatmap() {
 // Load FEMA Flood Zones and BFE Contours
 async function loadFemaVectorLayers() {
   try {
-    const resZones = await fetch('data/fema_flood_zones.geojson');
+    const resZones = await fetch('data/south_bay/santa_clara_county_flood_zones.geojson');
     const zonesData = await resZones.json();
 
     // 1. FEMA 100-Year SFHA (Zone AE, AH, AO, A)
@@ -206,7 +200,7 @@ async function loadFemaVectorLayers() {
 
     // 2. FEMA Zone X (Shaded) - 500-Year (0.2% Annual Chance) & Levee Protected
     zonesXShadedLayer = L.geoJSON(zonesData, {
-      filter: (f) => f.properties.FLD_ZONE === 'X' && (f.properties.ZONE_SUBTY?.includes('0.2') || f.properties.ZONE_SUBTY?.includes('LEVEE')),
+      filter: (f) => f.properties.FLD_ZONE === 'X' && (f.properties.ZONE_SUBTY?.includes('0.2') || f.properties.ZONE_SUBTY?.includes('LEVEE') || f.properties.ZONE_SUBTY?.includes('LESS THAN 1 FOOT')),
       style: (feature) => {
         const isLevee = feature.properties.ZONE_SUBTY?.includes('LEVEE');
         if (isLevee) {
@@ -264,7 +258,7 @@ async function loadFemaVectorLayers() {
 
   // 4. BFE Lines GeoJSON
   try {
-    const resBfe = await fetch('data/fema_bfe_lines.geojson');
+    const resBfe = await fetch('data/south_bay/santa_clara_county_bfe_lines.geojson');
     const bfeData = await resBfe.json();
 
     bfeLayer = L.geoJSON(bfeData, {
@@ -517,7 +511,7 @@ function setupSearch() {
 // Execute Geocoding Search
 async function executeSearch(query) {
   const searchResults = document.getElementById('searchResults');
-  searchResults.innerHTML = '<div class="search-result-item">Searching Sunnyvale...</div>';
+  searchResults.innerHTML = '<div class="search-result-item">Searching South Bay...</div>';
   searchResults.style.display = 'block';
 
   // Sunnyvale presets match first
@@ -528,7 +522,7 @@ async function executeSearch(query) {
 
   try {
     // Query Nominatim bounded to Sunnyvale
-    const nominatimUrl = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query + ' Sunnyvale CA')}&viewbox=${BOUNDS.west},${BOUNDS.north},${BOUNDS.east},${BOUNDS.south}&bounded=1&limit=5`;
+    const nominatimUrl = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query + ' Santa Clara County CA')}&viewbox=${BOUNDS.west},${BOUNDS.north},${BOUNDS.east},${BOUNDS.south}&bounded=1&limit=5`;
     const res = await fetch(nominatimUrl, { headers: { 'Accept-Language': 'en' } });
     const remoteResults = await res.json();
 
@@ -545,12 +539,12 @@ async function executeSearch(query) {
         lat: parseFloat(r.lat),
         lon: parseFloat(r.lon),
         is_preset: false,
-        desc: 'Sunnyvale Address'
+        desc: 'South Bay Address'
       }))
     ];
 
     if (allResults.length === 0) {
-      searchResults.innerHTML = '<div class="search-result-item">No Sunnyvale locations found. Try "Lakewood Dr", "Murphy Ave", or "Calabazas Creek".</div>';
+      searchResults.innerHTML = '<div class="search-result-item">No South Bay locations found. Try "San Jose", "Sunnyvale", "Palo Alto", or "Lakewood Dr".</div>';
       return;
     }
 
@@ -681,5 +675,5 @@ function setupUIEventListeners() {
 }
 
 function showOutsideBoundsWarning(lat, lng) {
-  alert(`Clicked coordinate (${lat.toFixed(4)}, ${lng.toFixed(4)}) is outside the Sunnyvale model boundary.\nPlease click within the Sunnyvale / Lakewood / Baylands study area.`);
+  alert(`Clicked coordinate (${lat.toFixed(4)}, ${lng.toFixed(4)}) is outside the South Bay model boundary.\nPlease click within Santa Clara County / South Bay study area.`);
 }

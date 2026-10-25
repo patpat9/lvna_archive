@@ -1,0 +1,80 @@
+{
+  "title": "South Bay (Santa Clara County) Flood Depth Model",
+  "region": "Santa Clara County / South Bay Basin",
+  "bounds": {
+    "west": -122.18,
+    "south": 37.18,
+    "east": -121.75,
+    "north": 37.48
+  },
+  "grid": {
+    "width": 1000,
+    "height": 700,
+    "cell_size_meters": 38.0
+  },
+  "key_locations": [
+    {
+      "name": "Lakewood Village (Sunnyvale)",
+      "lat": 37.4095,
+      "lon": -122.0085,
+      "zoom": 15,
+      "desc": "North Sunnyvale residential area near Calabazas Creek."
+    },
+    {
+      "name": "Alviso / North San Jose",
+      "lat": 37.426,
+      "lon": -121.975,
+      "zoom": 14.5,
+      "desc": "Historic bay port at the mouth of Guadalupe River; extensive Zone AE & levee-protected areas."
+    },
+    {
+      "name": "Downtown San Jose (Guadalupe River)",
+      "lat": 37.336,
+      "lon": -121.9002,
+      "zoom": 15,
+      "desc": "Guadalupe River floodway and bypass channel through Central San Jose."
+    },
+    {
+      "name": "Coyote Creek / Watson Park (San Jose)",
+      "lat": 37.355,
+      "lon": -121.87,
+      "zoom": 15,
+      "desc": "Site of the historic 2017 Coyote Creek atmospheric river flood."
+    },
+    {
+      "name": "Santa Clara (San Tomas Aquino Creek)",
+      "lat": 37.385,
+      "lon": -121.97,
+      "zoom": 15,
+      "desc": "Levi's Stadium and Great America tech corridor creek buffer."
+    },
+    {
+      "name": "Mountain View (Stevens Creek / Baylands)",
+      "lat": 37.415,
+      "lon": -122.075,
+      "zoom": 15,
+      "desc": "Shoreline Park and Stevens Creek tidal reach near NASA Ames."
+    },
+    {
+      "name": "Palo Alto (San Francisquito Creek)",
+      "lat": 37.455,
+      "lon": -122.145,
+      "zoom": 15,
+      "desc": "Border with San Mateo County; historic creek overtopping zone."
+    },
+    {
+      "name": "Campbell / Los Gatos Creek",
+      "lat": 37.287,
+      "lon": -121.942,
+      "zoom": 15,
+      "desc": "Los Gatos Creek trail and percolation ponds through Campbell."
+    },
+    {
+      "name": "South Sunnyvale (0.2% Annual Chance Zone)",
+      "lat": 37.36,
+      "lon": -122.03,
+      "zoom": 14.5,
+      "desc": "Gentle alluvial fan inside the 500-year flood zone."
+    }
+  ]
+}

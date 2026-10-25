@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sunnyvale Flood Risk & Depth Explorer | FEMA BFE vs USGS 3DEP</title>
+  <title>South Bay (Santa Clara County) Flood Risk & Depth Explorer | FEMA BFE vs USGS 3DEP</title>
   
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
@@ -26,10 +26,10 @@
       </div>
       <div class="brand-titles">
         <h1>
-          Sunnyvale Flood Depth Explorer
+          South Bay Flood Depth Explorer
           <span class="brand-badge">Static Snapshot</span>
         </h1>
-        <p>USGS 3DEP LiDAR Bare-Earth DEM &times; FEMA NFHL 100-Year Base Flood Elevation</p>
+        <p>USGS 3DEP LiDAR Bare-Earth DEM &times; FEMA NFHL Base Flood Elevation across Santa Clara County</p>
       </div>
     </div>
 
@@ -42,7 +42,7 @@
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
         </span>
-        <input type="text" id="searchInput" placeholder="Search Sunnyvale address (e.g. Lakewood Dr)..." autocomplete="off" />
+        <input type="text" id="searchInput" placeholder="Search South Bay address (e.g. San Jose, Sunnyvale, Palo Alto)..." autocomplete="off" />
         <button class="search-clear" id="searchClear">&times;</button>
         <div class="search-results" id="searchResults"></div>
       </div>
@@ -79,7 +79,7 @@
 
     <!-- Active Coordinates / Address Badge -->
     <div class="location-badge" id="locationBadge">
-      Click anywhere in Sunnyvale to inspect
+      Click anywhere in Santa Clara County / South Bay to inspect
     </div>
 
     <!-- Main Water Depth Hero Metric -->
@@ -268,7 +268,7 @@
             <h5>&check; Static Snapshot Advantages</h5>
             <ul style="padding-left: 18px; font-size: 12.5px;">
               <li><strong>Ultra-low data update frequency:</strong> FEMA 100-year flood maps and USGS LiDAR datasets are revised only once every several years or decades.</li>
-              <li><strong>Instant 0-latency queries:</strong> All grid math is precalculated. The entire Sunnyvale model compiles to &lt; 350 KB total assets.</li>
+              <li><strong>Instant 0-latency queries:</strong> All grid math is precalculated. The entire Santa Clara County South Bay model compiles to &lt; 5 MB total binary data.</li>
               <li><strong>Zero hosting cost:</strong> Hostable on any free static provider (Cloudflare Pages, GitHub Pages, Amazon S3).</li>
             </ul>
           </div>

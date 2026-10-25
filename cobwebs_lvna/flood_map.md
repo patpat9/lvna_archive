@@ -1,6 +1,6 @@
-# Sunnyvale & Lakewood Village Flood Risk Explorer
+# South Bay & Sunnyvale Flood Risk Explorer
 
-Interactive, zero-latency flood risk and water depth explorer for Sunnyvale, California, powered by a **Static Snapshot + Pure Frontend Rendering** architecture.
+Interactive, zero-latency flood risk and water depth explorer for Santa Clara County and the South Bay (Palo Alto, Mountain View, Sunnyvale, Santa Clara, San Jose, Campbell, Alviso), powered by a **Static Snapshot + Pure Frontend Rendering** architecture.
 
 [Open Fullscreen Flood Explorer :material-open-in-new:](../flood-map/){ .md-button .md-button--primary target="_blank" }
 
