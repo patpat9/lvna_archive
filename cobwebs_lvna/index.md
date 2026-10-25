@@ -26,7 +26,7 @@ Lakewood Village is a distinctive mid-century neighborhood in northern Sunnyvale
 
 <div class="grid cards" markdown>
 
--   📰 **[The Villager](Villager/villager.md)**
+-   📰 **[The Villager](Villager/Issues/index.md)**
 
     ---
 
