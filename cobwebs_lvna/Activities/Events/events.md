@@ -115,9 +115,26 @@ Photos courtesy of Ursula Syrova and Brian Smithson.
 
 | Grand Winner: 1285 Manzano | Grand Winner: 1285 Manzano |
 | :---: | :---: |
-| !['1285 Manzano 2003'](../../db_1285manzano11.jpg)<br>*Joseph Levy residence, 1285 Manzano* | !['1285 Manzano 2003'](../../db_1285manzano21.jpg)<br>*Illuminated rooftop and lawn display* |
-| !['1285 Manzano 2003'](../../db_1285manzano31.jpg)<br>*Porch and eaves lighting details* | !['1285 Manzano 2003'](../../db_1285manzanoA1.jpg)<br>*Full front garden lighting* |
-| !['1285 Manzano 2003'](../../db_1285manzanoB1.jpg)<br>*Courtyard illumination* | !['1285 Manzano 2003'](../../db_1285manzanoC1.jpg)<br>*Front walkway perspective* |
+| [![1285 Manzano 2003](../../db_1285manzano11.jpg)](../../db_1285manzano11.jpg){ .glightbox }<br>*Joseph Levy residence, 1285 Manzano (Grand Winner)* | [![1285 Manzano 2003](../../db_1285manzano21.jpg)](../../db_1285manzano21.jpg){ .glightbox }<br>*Illuminated rooftop and lawn display* |
+| [![1285 Manzano 2003](../../db_1285manzano31.jpg)](../../db_1285manzano31.jpg){ .glightbox }<br>*Porch and eaves lighting details* | [![1285 Manzano 2003](../../db_1285manzanoA1.jpg)](../../db_1285manzanoA1.jpg){ .glightbox }<br>*Full front garden lighting* |
+| [![1285 Manzano 2003](../../db_1285manzanoB1.jpg)](../../db_1285manzanoB1.jpg){ .glightbox }<br>*Courtyard illumination* | [![1285 Manzano 2003](../../db_1285manzanoC1.jpg)](../../db_1285manzanoC1.jpg){ .glightbox }<br>*Front walkway perspective* |
+
+| Unit I Winner: 1315 Sandia Avenue | Unit I Winner: 1315 Sandia Avenue |
+| :---: | :---: |
+| [![1315 Sandia](../../db_1315sandiaA1.jpg)](../../db_1315sandiaA1.jpg){ .glightbox }<br>*Mark Sabala residence, 1315 Sandia Avenue (Unit I Winner)* | [![1315 Sandia Side](../../db_1315sandiaB1.jpg)](../../db_1315sandiaB1.jpg){ .glightbox }<br>*Courtyard and facade lighting at 1315 Sandia* |
+
+| Unit II Winner: 710 Jadelake Drive | Unit II Winner: 710 Jadelake Drive |
+| :---: | :---: |
+| [![710 Jadelake](../../db_710jadelakeA4.jpg)](../../db_710jadelakeA4.jpg){ .glightbox }<br>*Boudewijn and Jean Zwijsen residence, 710 Jadelake (Unit II Winner)* | [![710 Jadelake Lawn](../../db_710jadelakeB4.jpg)](../../db_710jadelakeB4.jpg){ .glightbox }<br>*Illuminated garden and holiday trees at 710 Jadelake* |
+
+| Unit III Winner: 333 Greenlake Drive | Unit III Winner: 333 Greenlake Drive |
+| :---: | :---: |
+| [![333 Greenlake](../../db_333greenlakeA1.jpg)](../../db_333greenlakeA1.jpg){ .glightbox }<br>*Ofelia and Roctelio Agbulos residence, 333 Greenlake (Unit III Winner)* | [![333 Greenlake Roof](../../db_333greenlakeC1.jpg)](../../db_333greenlakeC1.jpg){ .glightbox }<br>*Rooftop and driveway lights at 333 Greenlake* |
+
+| Contest Entries: 302 Hiddenlake, 750 Lakemuir & 770 Lakewood | Contest Entries: 302 Hiddenlake, 750 Lakemuir & 770 Lakewood |
+| :---: | :---: |
+| [![302 Hiddenlake](../../db_302_hiddlenlake-web1.jpg)](../../db_302_hiddlenlake-web1.jpg){ .glightbox }<br>*302 Hiddenlake Drive holiday display* | [![750 Lakemuir](../../db_750_lakemuir-web1.jpg)](../../db_750_lakemuir-web1.jpg){ .glightbox }<br>*750 Lakemuir Drive holiday display* |
+| [![770 Lakewood](../../db_770_lakewood-web1.jpg)](../../db_770_lakewood-web1.jpg){ .glightbox }<br>*770 Lakewood Drive holiday display* | |
 
 ### 2002 Holiday Lighting Contest
 
@@ -128,7 +145,7 @@ Photos courtesy of Ursula Syrova and Brian Smithson.
 
 | 666 Lakefair (Unit III) | 666 Lakefair (Unit III) |
 | :---: | :---: |
-| !['2002 Holiday Lighting Contest'](../../db_lakefair-12.jpg)<br>*666 Lakefair Drive* | !['2002 Holiday Lighting Contest'](../../db_lakefair-23.jpg)<br>*666 Lakefair Drive illuminated* |
+| [![666 Lakefair](../../db_lakefair-13.jpg)](../../db_lakefair-13.jpg){ .glightbox }<br>*666 Lakefair Drive* | !['2002 Holiday Lighting Contest'](../../db_lakefair-23.jpg)<br>*666 Lakefair Drive illuminated* |
 | !['2002 Holiday Lighting Contest'](../../db_lakemuir-13.jpg)<br>*750 Lakemuir Drive (Unit II)* | !['2002 Holiday Lighting Contest'](../../db_lakemuir-23.jpg)<br>*750 Lakemuir Drive (Unit II)* |
 | !['2002 Holiday Lighting Contest'](../../db_prescott-13.jpg)<br>*1287 Prescott Avenue (Unit IV)* | !['2002 Holiday Lighting Contest'](../../db_prescott-23.jpg)<br>*1287 Prescott Avenue (Unit IV)* |
 
@@ -603,6 +620,7 @@ Among the award-winning designs was a remodeled Lakewood Village home: the **Smi
 | !['Stair Construction'](../../db_StairDtls3.jpg)<br>*Architectural stair construction details* | !['Staircase'](../../db_StairFullOn3.jpg)<br>*Custom central staircase* |
 | !['Stairwell Skylight'](../../db_StairRight3.jpg)<br>*Natural light patterns from stairwell skylight* | !['Steel Bracing'](../../db_SteelFrame3.jpg)<br>*Shear-strength seismic steel bracing* |
 | !['Window Wall Detail'](../../db_IntCorner3.jpg)<br>*Corner window cross-bracing* | !['Handrail Detail'](../../db_StairHandrail3.jpg)<br>*Custom handrail and landing detail* |
+| [![Exterior Corner Detail](../../db_Extcorner3.jpg)](../../db_Extcorner3.jpg){ .glightbox }<br>*Exterior corner detail with corrugated siding* | [![Sandia Facade at Night](../../db_Sandianight3.jpg)](../../db_Sandianight3.jpg){ .glightbox }<br>*Sandia Avenue facade illuminated at night* |
 
 ### 2004 Sunnyvale Knights Regional Champions
 

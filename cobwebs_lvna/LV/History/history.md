@@ -117,7 +117,11 @@ The 1950s brought explosive suburban growth to Sunnyvale. To prevent San Jose an
 
 | Oak Creek Way (1956) | Fairwood Avenue (1957) | Methodist Church (1959) |
 | :---: | :---: | :---: |
-| ![Oak Creek Way 1956](../../db_oak_creek_april_19563.jpg)<br>*Oak Creek Way in April 1956* | ![Fairwood Avenue 1957](../../db_oak_creek_fairwood_behind_may_19573.jpg)<br>*Oak Creek Way with Fairwood Avenue (May 1957)* | ![Methodist Church 1959](../../db_methodist_church_sandia_fairwood_19593.jpg)<br>*Lakewood Methodist Church on Sandia (1959)* |
+| [![Oak Creek Way 1956](../../db_oak_creek_april_19563.jpg)](../../db_oak_creek_april_19563.jpg){ .glightbox }<br>*Oak Creek Way in April 1956* | [![Fairwood Avenue 1957](../../db_oak_creek_fairwood_behind_may_19573.jpg)](../../db_oak_creek_fairwood_behind_may_19573.jpg){ .glightbox }<br>*Oak Creek Way with Fairwood Avenue (May 1957)* | [![Methodist Church 1959](../../db_methodist_church_sandia_fairwood_19593.jpg)](../../db_methodist_church_sandia_fairwood_19593.jpg){ .glightbox }<br>*Lakewood Methodist Church on Sandia (1959)* |
+
+| Oak Creek & Sandia (1959) | Highway 237 Boundary (1957) |
+| :---: | :---: |
+| [![Oak Creek & Sandia](../../db_oak_creek_sandia_19593.jpg)](../../db_oak_creek_sandia_19593.jpg){ .glightbox }<br>*Corner of Oak Creek Way and Sandia Avenue (1959)* | [![Highway 237 Boundary](../../db_th_something__way_237_19573.jpg)](../../db_th_something__way_237_19573.jpg){ .glightbox }<br>*Subdivision construction bordering Highway 237 (1957)* |
 
 ### 1950s Chronological Timeline
 
@@ -288,7 +292,11 @@ US Census Bureau records from 1970 through 2000 illustrate the evolution of Lake
 
 | Population & Household Growth | Ethnic Diversity Trends | Income Evolution |
 | :---: | :---: | :---: |
-| ![Population & Households](HistoryStub/Census_Data/708090-population-households.jpg)<br>*Total population and household counts (1970-1990)* | ![Race & Ethnicity Trends](HistoryStub/Census_Data/708090-race.jpg)<br>*Racial and ethnic composition trends* | ![Household Income](HistoryStub/Census_Data/708090-income.jpg)<br>*Median household income growth* |
+| [![Population & Households](HistoryStub/Census_Data/708090-population-households.jpg)](HistoryStub/Census_Data/708090-population-households.jpg){ .glightbox }<br>*Total population and household counts (1970-1990)* | [![Race & Ethnicity Trends](HistoryStub/Census_Data/708090-race.jpg)](HistoryStub/Census_Data/708090-race.jpg){ .glightbox }<br>*Racial and ethnic composition trends* | [![Household Income](HistoryStub/Census_Data/708090-income.jpg)](HistoryStub/Census_Data/708090-income.jpg){ .glightbox }<br>*Median household income growth* |
+
+| Age Cohort Distribution (1970-1990) | Hispanic Origin Evolution (1970-1990) |
+| :---: | :---: |
+| [![Age Distribution](HistoryStub/Census_Data/708090-age.jpg)](HistoryStub/Census_Data/708090-age.jpg){ .glightbox }<br>*Age cohort shifts showing maturation of original suburban families* | [![Hispanic Origin](HistoryStub/Census_Data/708090-latino.jpg)](HistoryStub/Census_Data/708090-latino.jpg){ .glightbox }<br>*Multi-decade growth in Hispanic and Latino heritage* |
 
 ### 1990 vs. 2000 Census Profile Comparison
 
@@ -299,6 +307,52 @@ US Census Bureau records from 1970 through 2000 illustrate the evolution of Lake
 | **Average Household Size** | 3.12 persons | 3.48 persons | Growth in multi-generational family households |
 | **Median Home Value** | $228,500 | $475,000 | +108% appreciation reflecting Silicon Valley demand |
 | **Median Household Income** | $48,200 | $78,600 | +63% economic expansion |
+
+#### Decennial Comparative Charts (1990 vs. 2000)
+
+| Population Growth | Racial & Ethnic Diversity Shift |
+| :---: | :---: |
+| [![Population Comparison](HistoryStub/Census_Data/1990-2000-population.jpg)](HistoryStub/Census_Data/1990-2000-population.jpg){ .glightbox }<br>*1990 vs. 2000 total resident population* | [![Racial Composition](HistoryStub/Census_Data/1990-2000-race.jpg)](HistoryStub/Census_Data/1990-2000-race.jpg){ .glightbox }<br>*Shifts in racial and ethnic diversity* |
+
+| Average Household Size | Latino Heritage Growth |
+| :---: | :---: |
+| [![Household Size](HistoryStub/Census_Data/1990-2000-household-size.jpg)](HistoryStub/Census_Data/1990-2000-household-size.jpg){ .glightbox }<br>*Distribution of household sizes* | [![Latino Heritage](HistoryStub/Census_Data/1990-2000-latino.jpg)](HistoryStub/Census_Data/1990-2000-latino.jpg){ .glightbox }<br>*Latino population comparison* |
+
+| Housing Occupancy Rates | Homeownership vs. Rental |
+| :---: | :---: |
+| [![Occupancy Rates](HistoryStub/Census_Data/1990-2000-occupancy.jpg)](HistoryStub/Census_Data/1990-2000-occupancy.jpg){ .glightbox }<br>*Occupied vs. vacant housing units* | [![Homeownership](HistoryStub/Census_Data/1990-2000-ownership.jpg)](HistoryStub/Census_Data/1990-2000-ownership.jpg){ .glightbox }<br>*Owner-occupied vs. renter-occupied units* |
+
+| Age Distribution Shift |
+| :---: |
+| [![Age Distribution](HistoryStub/Census_Data/1990-2000-age.jpg)](HistoryStub/Census_Data/1990-2000-age.jpg){ .glightbox }<br>*Comparison of resident age distributions (1990 vs. 2000)* |
+
+### 1990 Economic & Workforce Profile
+
+Detailed 1990 decennial census records document Lakewood Village during the height of Silicon Valley's defense, semiconductor, and personal computer revolution:
+
+| Household Income Distribution | Home Values & Contract Rent |
+| :---: | :---: |
+| [![Household Income](1990_s/1990-income.jpg)](1990_s/1990-income.jpg){ .glightbox }<br>*1990 household income brackets* | [![Home Values](1990_s/1990-home-value.jpg)](1990_s/1990-home-value.jpg){ .glightbox }<br>*Single-family home market valuations* |
+
+| Employment Industry Breakdown | Occupations of Residents |
+| :---: | :---: |
+| [![Employment Industry](1990_s/1990-industry.jpg)](1990_s/1990-industry.jpg){ .glightbox }<br>*Employment by industry (aerospace, electronics, manufacturing)* | [![Resident Occupations](1990_s/1990-occupation.jpg)](1990_s/1990-occupation.jpg){ .glightbox }<br>*Occupational classifications of tract residents* |
+
+| Educational Attainment | Primary Language Spoken at Home |
+| :---: | :---: |
+| [![Educational Attainment](1990_s/1990-education.jpg)](1990_s/1990-education.jpg){ .glightbox }<br>*Adult educational attainment levels* | [![Languages Spoken](1990_s/1990-language.jpg)](1990_s/1990-language.jpg){ .glightbox }<br>*Languages spoken in neighborhood households* |
+
+| Commute Travel Modes | Commute Travel Times |
+| :---: | :---: |
+| [![Commute Modes](1990_s/1990-work-transportation.jpg)](1990_s/1990-work-transportation.jpg){ .glightbox }<br>*Transportation modes to work* | [![Travel Time](1990_s/1990-work-travel-time.jpg)](1990_s/1990-work-travel-time.jpg){ .glightbox }<br>*Commuting travel time in minutes* |
+
+| Monthly Contract Rent | Housing Occupancy & Tenure |
+| :---: | :---: |
+| [![Contract Rent](1990_s/1990-rent.jpg)](1990_s/1990-rent.jpg){ .glightbox }<br>*1990 monthly contract rent distribution* | [![Housing Occupancy](1990_s/1990-occupancy.jpg)](1990_s/1990-occupancy.jpg){ .glightbox }<br>*1990 occupied vs. vacant housing units* |
+
+| School Enrollment by Level | Workers per Family Household |
+| :---: | :---: |
+| [![School Enrollment](1990_s/1990-school-enrollment.jpg)](1990_s/1990-school-enrollment.jpg){ .glightbox }<br>*Neighborhood student school enrollment* | [![Workers per Family](1990_s/1990-workers-in-family.jpg)](1990_s/1990-workers-in-family.jpg){ .glightbox }<br>*Distribution of workers per family household* |
 
 ### 2000 Census Geographic Hierarchy & Tract Boundaries
 

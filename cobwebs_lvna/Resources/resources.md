@@ -100,3 +100,17 @@ A curated directory of local civic, educational, informational, and news links s
 - **The Sunnyvale Sun:** Local weekly newspaper covering Sunnyvale municipal affairs and neighborhood events.
 - **San Jose Mercury News:** Major metropolitan daily newspaper of Silicon Valley and the South Bay.
 - **Metro Silicon Valley:** Weekly alternative arts, culture, and dining journal.
+
+---
+
+## Historical Neighborhood Maps & Cartography
+
+Preserved municipal, county, transit, and geological survey maps documenting Lakewood Village and northern Sunnyvale:
+
+| Lakewood Village Street Grid | USGS Earthquake Shaking Hazard Map |
+| :---: | :---: |
+| [![Street Level Grid Map](Maps/Street/lv_street_level.gif)](Maps/Street/lv_street_level.gif){ .glightbox }<br>*Street-level residential grid map of Lakewood Village* | [![USGS Earthquake Hazard](Maps/Quake/quake.gif)](Maps/Quake/quake.gif){ .glightbox }<br>*USGS northern Sunnyvale and baylands seismic shaking hazard assessment* |
+
+| Northern Santa Clara County Freeway Network | South Bay Regional Locator Map |
+| :---: | :---: |
+| [![Freeway Network Map](../LV/Transportation/freeway-map.gif)](../LV/Transportation/freeway-map.gif){ .glightbox }<br>*Highways and expressways serving Lakewood Village (US-101, CA-237, Lawrence)* | [![South Bay Regional Area](../LV/lv_south_bay_area.gif)](../LV/lv_south_bay_area.gif){ .glightbox }<br>*Regional locator map within Silicon Valley and the San Francisco Bay Area* |
