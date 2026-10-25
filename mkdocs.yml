@@ -38,8 +38,8 @@ theme:
 nav:
   - Home: index.md
   - The Villager:
+      - Complete Digital Archive (1958-2026): Villager/Issues/index.md
       - Historical Policies, Guidelines & Advertising: Villager/villager.md
-      - Complete Issues Archive (1958–2008): Villager/Issues/index.md
   - Neighborhood History:
       - 50-Year History & Timeline: LV/History/history.md
       - Historical Community Guide: LV/lv.md
