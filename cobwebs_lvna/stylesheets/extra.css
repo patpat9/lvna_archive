@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Custom Styles for Lakewood Village Historical Archive
+   ========================================================================== */
+
+/* Center table containers generated dynamically by Material JS */
+.md-typeset__scrollwrap {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.md-typeset__table {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: initial;
+}
+
+/* Center bare table elements (before JS wraps them or if JS is disabled) */
+.md-typeset table:not([class]),
+html .md-typeset__table table {
+  display: table;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 1.5em;
+}
+
+/* Ensure images inside table cells are centered */
+.md-typeset table:not([class]) td img,
+html .md-typeset__table table td img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center link wrappers containing images inside table cells */
+.md-typeset table:not([class]) td a,
+html .md-typeset__table table td a {
+  display: inline-block;
+  text-align: center;
+}
+
+/* Ensure figure captions and italics beneath images are properly spaced and centered */
+.md-typeset table:not([class]) td em,
+html .md-typeset__table table td em {
+  display: inline-block;
+  margin-top: 0.35em;
+}
+
+/* Ensure table headers in figure/image tables have centered headings */
+.md-typeset table:not([class]) th[style*="text-align: center"],
+.md-typeset table:not([class]) th[style*="text-align:center"],
+html .md-typeset__table table th[style*="text-align: center"],
+html .md-typeset__table table th[style*="text-align:center"] {
+  text-align: center;
+}
+
+/* Button styling and spacing */
+.md-typeset .md-button {
+  margin: 0.4em 0.6em 0.4em 0;
+  border-radius: 0.25rem;
+  vertical-align: middle;
+}
+
+/* Bylaws formatting within collapsible container */
+.bylaw-article-header {
+  font-size: 1.15em;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  letter-spacing: 0.02em;
+}
+
+.bylaw-section-header {
+  font-size: 1.0em;
+  font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+.bylaw-toc-title {
+  font-size: 1.05em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+

@@ -1,0 +1,145 @@
+site_name: Lakewood Village Historical Archive
+site_description: Searchable digital archive of the Lakewood Village Neighborhood Association (1958–2008)
+site_author: Lakewood Village Neighborhood Association
+site_url: https://patpat9.github.io/lvna_archive/
+copyright: 'Historical content &copy; 2002–2008 Brian Smithson / Lakewood Village Neighborhood Association &middot; Original archive preserved at <a href="https://www.grot.com/Cobwebs/LVNA/index.html" target="_blank" rel="noopener">grot.com/Cobwebs/LVNA</a>'
+docs_dir: cobwebs_lvna
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: teal
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+
+nav:
+  - Home: index.md
+  - The Villager:
+      - Historical Policies, Guidelines & Advertising: Villager/villager.md
+      - Complete Issues Archive (1958–2008): Villager/Issues/index.md
+  - Neighborhood History:
+      - 50-Year History & Timeline: LV/History/history.md
+      - Historical Community Guide: LV/lv.md
+  - Activities & Events:
+      - Historical Traditions & Events: Activities/activities.md
+      - Event Photo Galleries (2001-2005): Activities/Events/events.md
+  - The LVNA:
+      - Association History: LVNA/Org_History/org_history.md
+      - Governance & Organization: LVNA/lvna.md
+  - Community Resources:
+      - Civic Directory & Reference: Resources/resources.md
+      - About LVNA.NET: Miscellany/About_LVNA_NET/about_lvna_net.md
+
+plugins:
+  - search:
+      lang: en
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: true
+      caption_position: bottom
+  - redirects:
+      redirect_maps:
+        # LVNA redirects
+        LVNA/By-Laws/by-laws.md: LVNA/lvna.md#official-association-by-laws
+        LVNA/Meetings/meetings.md: LVNA/lvna.md#meeting-framework
+        LVNA/Participate/participate.md: LVNA/lvna.md#volunteer-operations-and-delivery-network
+        
+        # Activities & Events redirects
+        Activities/Events/2005_Parade/2005_Parade.md: Activities/Events/events.md#2005-holiday-parade
+        Activities/Events/2004_Parade/2004_Parade.md: Activities/Events/events.md#2004-holiday-parade
+        Activities/Events/2003_Parade/2003_Parade.md: Activities/Events/events.md#2003-holiday-parade
+        Activities/Events/2001_Parade/2001_Parade.md: Activities/Events/events.md#2001-holiday-parade
+        Activities/Events/2005_Lighting/2005_Lighting.md: Activities/Events/events.md#2005-holiday-lighting-contest
+        Activities/Events/2004_Lighting/2004_Lighting.md: Activities/Events/events.md#2004-holiday-lighting-contest
+        Activities/Events/2003_Lighting/2003_Lighting.md: Activities/Events/events.md#2003-holiday-lighting-contest
+        Activities/Events/2002_Lighting/2002_Lighting.md: Activities/Events/events.md#2002-holiday-lighting-contest
+        Activities/Events/2001_Lighting/2001_Lighting.md: Activities/Events/events.md#2001-holiday-lighting-contest
+        Activities/Events/2005_Picnic/2005_Picnic.md: Activities/Events/events.md#2005-lakewood-park-summer-picnic
+        Activities/Events/2004_Picnic/2004_Picnic.md: Activities/Events/events.md#2004-lakewood-park-summer-picnic
+        Activities/Events/2003_Picnic/2003_Picnic.md: Activities/Events/events.md#2003-lakewood-park-summer-picnic
+        Activities/Events/2002_Picnic/2002_Picnic.md: Activities/Events/events.md#2002-lakewood-park-summer-picnic
+        Activities/Events/2001_Picnic/2001_Picnic.md: Activities/Events/events.md#2001-lakewood-park-summer-picnic
+        Activities/Events/2001_Picnic/Album_1/Album_1.md: Activities/Events/events.md#2001-lakewood-park-summer-picnic
+        Activities/Events/2001_Picnic/Album_2/Album_2.md: Activities/Events/events.md#2001-lakewood-park-summer-picnic
+        Activities/Events/2001_Picnic/Album_3/Album_3.md: Activities/Events/events.md#2001-lakewood-park-summer-picnic
+        Activities/Events/2001_Picnic/Album_4/Album_4.md: Activities/Events/events.md#2001-lakewood-park-summer-picnic
+        Activities/Events/2001_Picnic/Album_5/Album_5.md: Activities/Events/events.md#2001-lakewood-park-summer-picnic
+        Activities/Events/2001_Picnic/Album_6/Album_6.md: Activities/Events/events.md#2001-lakewood-park-summer-picnic
+        Activities/Events/2001_Picnic/Album_7/Album_7.md: Activities/Events/events.md#2001-lakewood-park-summer-picnic
+        Activities/Events/2004_Knights/2004_Knights.md: Activities/Events/events.md#2004-sunnyvale-knights-baseball-championship
+        Activities/Events/2003_Writing_Contest/2003_Writing_Contest.md: Activities/Events/events.md#2003-youth-writing-contest
+        Activities/Events/2001_AIA_Award/2001_AIA_Award.md: Activities/Events/events.md#2001-aia-architectural-design-award
+        
+        # Resources & Miscellany redirects
+        Resources/Phones/phones.md: Resources/resources.md#city-and-public-safety-phone-directory
+        Resources/Links/links.md: Resources/resources.md#local-and-regional-web-links
+        Resources/Calendar/calendar.md: Activities/activities.md#neighborhood-seasonal-cadence-and-calendar
+        Resources/Reading_List/reading_list.md: LV/History/history.md#local-history-bibliography-and-references
+        Resources/Maps/maps.md: LV/History/history.md#physical-evolution-and-usgs-cartography-1970s-1990s
+        Resources/Maps/Street/street.md: LV/History/history.md#subdivision-parcel-and-lot-layout
+        Resources/Maps/Lot/lot.md: LV/History/history.md#subdivision-parcel-and-lot-layout
+        Resources/Maps/Historical/historical.md: LV/History/history.md#santa-clara-valley-airport-1945-1955
+        Resources/Maps/Aerial/aerial.md: LV/History/history.md#physical-evolution-and-usgs-cartography-1970s-1990s
+        Resources/Maps/Topo/topo.md: LV/History/history.md#physical-evolution-and-usgs-cartography-1970s-1990s
+        Resources/Maps/Census/census.md: LV/History/history.md#2000-census-geographic-hierarchy-and-tract-boundaries
+        Resources/Maps/Transit/transit.md: LV/lv.md#public-transit-as-documented-in-the-2000s
+        Resources/Maps/Quake/quake.md: LV/lv.md#regional-seismic-and-flood-hazard-assessments
+        Resources/Maps/Flood/flood.md: LV/lv.md#regional-seismic-and-flood-hazard-assessments
+        Resources/Maps/Plume/plume.md: LV/lv.md#groundwater-monitoring-and-industrial-air-quality
+        Resources/Maps/Toxics/toxics.md: LV/lv.md#groundwater-monitoring-and-industrial-air-quality
+        Resources/Maps/Political/political.md: LV/lv.md#political-districts-and-representation-circa-2002
+        Resources/Maps/Weather/weather.md: LV/lv.md#environmental-and-geologic-setting
+        Miscellany/Prices/prices.md: LV/lv.md#historical-housing-and-real-estate-snapshot-2002-2008
+        Miscellany/Contact/contact.md: LVNA/lvna.md#preserved-2000s-elected-officers-directory
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+exclude_docs: |
+  _raw_html/**
+  README.md
