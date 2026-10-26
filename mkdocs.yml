@@ -58,6 +58,7 @@ nav:
 plugins:
   - search:
       lang: en
+      separator: '[\s\-_.:/]+'
   - glightbox:
       touchNavigation: true
       loop: false
