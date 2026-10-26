@@ -8,6 +8,7 @@ site_dir: site
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   palette:
     - scheme: default
@@ -141,8 +142,6 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
-extra_javascript:
-  - javascripts/search-enhancer.js
 
 exclude_docs: |
   _raw_html/**

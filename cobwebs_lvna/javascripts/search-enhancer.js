@@ -9,15 +9,23 @@
 (function () {
   'use strict';
 
+  if (typeof window === 'undefined' || window.__lvna_search_enhanced) return;
+  window.__lvna_search_enhanced = true;
+
   const OriginalWorker = window.Worker;
   if (!OriginalWorker) return;
 
-  // Cache full text of documents from initialization (type: 0)
   const fullDocMap = new Map();
+  let currentQuery = '';
 
-  function cleanText(text) {
+  function normalize(text) {
     if (!text) return '';
-    return text.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+    return text
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/[^\w\s]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase();
   }
 
   function makeSnippet(fullText, query) {
@@ -33,10 +41,19 @@
     if (start > 0) snippet = '...' + snippet;
     if (end < fullText.length) snippet = snippet + '...';
 
-    // Highlight query terms safely
     const escaped = cleanQ.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const regex = new RegExp(`(${escaped})`, 'gi');
     return snippet.replace(regex, '<mark>$1</mark>');
+  }
+
+  function getActiveQuery() {
+    try {
+      const input = document.querySelector('[data-md-component=search-query]');
+      if (input && typeof input.value === 'string' && input.value.trim()) {
+        return input.value;
+      }
+    } catch (e) {}
+    return currentQuery;
   }
 
   function reRankItems(rawQuery, items) {
@@ -45,13 +62,12 @@
     }
 
     const trimmed = rawQuery.trim();
-    // Check if user requested an exact phrase via quotes
     const isQuoted = (trimmed.startsWith('"') && trimmed.endsWith('"')) ||
                      (trimmed.startsWith("'") && trimmed.endsWith("'")) ||
                      trimmed.includes('"');
 
-    const cleanQuery = trimmed.replace(/["'+]/g, '').trim().toLowerCase();
-    const words = cleanQuery.split(/\s+/).filter(w => w.length > 0);
+    const normQuery = normalize(trimmed);
+    const words = normQuery.split(/\s+/).filter(w => w.length > 0);
 
     // Single-word queries use standard Lunr BM25 scoring
     if (words.length <= 1) {
@@ -67,52 +83,44 @@
 
       for (const sec of group) {
         const fullDoc = fullDocMap.get(sec.location);
-        const titleStr = cleanText(fullDoc ? fullDoc.title : sec.title);
-        const textStr = cleanText(fullDoc ? fullDoc.text : sec.text);
+        const titleStr = normalize(fullDoc ? fullDoc.title : sec.title);
+        const textStr = normalize(fullDoc ? fullDoc.text : sec.text);
         const fullStr = titleStr + ' ' + textStr;
 
         let bonus = 0;
 
-        // 1. Exact Full Phrase Match (Continuous)
-        if (fullStr.includes(cleanQuery)) {
-          bonus += 100000;
+        // 1. Exact Full Continuous Phrase Match
+        if (fullStr.includes(normQuery)) {
+          bonus += 1000000;
           groupHasExactPhrase = true;
-          if (titleStr.includes(cleanQuery)) {
-            bonus += 50000;
+          if (titleStr.includes(normQuery)) {
+            bonus += 100000;
           }
 
-          // If sec.text was truncated before reaching the match (e.g. in long transcripts),
-          // synthesize an accurate highlighted snippet centered directly on the match
-          if (fullDoc && fullDoc.text && !cleanText(sec.text).includes(cleanQuery)) {
-            const customSnippet = makeSnippet(fullDoc.text, cleanQuery);
+          // Generate accurate highlighted snippet if original snippet truncated before match
+          if (fullDoc && fullDoc.text && !normalize(sec.text).includes(normQuery)) {
+            const customSnippet = makeSnippet(fullDoc.text, trimmed.replace(/["']/g, ''));
             if (customSnippet) {
               sec.text = customSnippet;
             }
           }
         } else {
-          // 2. Sub-phrase pairs for queries with 3+ words (e.g. "755 lakewood drive")
-          if (words.length >= 3) {
-            for (let i = 0; i < words.length - 1; i++) {
-              const pair = words[i] + ' ' + words[i + 1];
-              if (fullStr.includes(pair)) {
-                bonus += 15000;
-                groupHasExactPhrase = true;
-              }
-            }
-          }
-
-          // 3. Proximity scoring (words close to each other)
+          // 2. Check if all query words are present
           const allWordsPresent = words.every(w => fullStr.includes(w));
           if (allWordsPresent) {
-            bonus += 1000;
+            bonus += 50000;
+            // Proximity bonus
             const idx1 = fullStr.indexOf(words[0]);
             const idx2 = fullStr.indexOf(words[1]);
             if (idx1 !== -1 && idx2 !== -1) {
               const dist = Math.abs(idx1 - idx2);
-              if (dist < 120) {
-                bonus += Math.max(0, 1000 - dist * 8);
+              if (dist < 150) {
+                bonus += Math.max(0, 5000 - dist * 30);
               }
             }
+          } else {
+            // Missing words from multi-word query: heavily demote score
+            bonus -= 10000;
           }
         }
 
@@ -122,7 +130,7 @@
         }
       }
 
-      // If user wrapped query in quotes, filter out documents without exact continuous phrase
+      // If user wrapped query in quotes, exclude documents without exact continuous phrase
       if (isQuoted && !groupHasExactPhrase) {
         continue;
       }
@@ -138,74 +146,71 @@
     return scoredGroups;
   }
 
-  // Intercept Worker to augment search results seamlessly
-  window.Worker = class extends OriginalWorker {
-    constructor(scriptUrl, options) {
-      super(scriptUrl, options);
-
-      const urlStr = scriptUrl ? scriptUrl.toString() : '';
-      if (!urlStr.includes('search') && !urlStr.includes('worker')) {
-        return;
+  function handleOutgoingMessage(msg) {
+    if (msg && msg.type === 0 && msg.data && Array.isArray(msg.data.docs)) {
+      for (const doc of msg.data.docs) {
+        if (doc && doc.location) {
+          fullDocMap.set(doc.location, {
+            title: doc.title || '',
+            text: doc.text || ''
+          });
+        }
       }
-
-      let currentQuery = '';
-
-      // Intercept outgoing messages to worker
-      const origPostMessage = this.postMessage.bind(this);
-      this.postMessage = (msg) => {
-        // Intercept index initialization (type: 0) to cache full documents
-        if (msg && msg.type === 0 && msg.data && Array.isArray(msg.data.docs)) {
-          for (const doc of msg.data.docs) {
-            if (doc && doc.location) {
-              fullDocMap.set(doc.location, {
-                title: doc.title || '',
-                text: doc.text || ''
-              });
-            }
-          }
-        }
-
-        // Intercept search queries (type: 2)
-        if (msg && msg.type === 2 && typeof msg.data === 'string') {
-          currentQuery = msg.data;
-        }
-
-        return origPostMessage(msg);
-      };
-
-      // Intercept incoming search results via addEventListener
-      const origAddEventListener = this.addEventListener.bind(this);
-      this.addEventListener = (type, listener, opts) => {
-        if (type === 'message') {
-          const wrappedListener = (event) => {
-            if (event && event.data && event.data.type === 3 && event.data.data && Array.isArray(event.data.data.items)) {
-              event.data.data.items = reRankItems(currentQuery, event.data.data.items);
-            }
-            return listener(event);
-          };
-          return origAddEventListener(type, wrappedListener, opts);
-        }
-        return origAddEventListener(type, listener, opts);
-      };
-
-      // Intercept incoming search results via onmessage setter
-      let customOnMessage = null;
-      Object.defineProperty(this, 'onmessage', {
-        get() {
-          return customOnMessage;
-        },
-        set(fn) {
-          customOnMessage = fn;
-          super.onmessage = (event) => {
-            if (event && event.data && event.data.type === 3 && event.data.data && Array.isArray(event.data.data.items)) {
-              event.data.data.items = reRankItems(currentQuery, event.data.data.items);
-            }
-            if (customOnMessage) {
-              customOnMessage.call(this, event);
-            }
-          };
-        }
-      });
     }
+    if (msg && msg.type === 2 && typeof msg.data === 'string') {
+      currentQuery = msg.data;
+    }
+  }
+
+  function handleIncomingEvent(event) {
+    if (event && event.data && event.data.type === 3 && event.data.data && Array.isArray(event.data.data.items)) {
+      const q = getActiveQuery();
+      event.data.data.items = reRankItems(q, event.data.data.items);
+    }
+  }
+
+  // 1. Monkey-patch Prototype
+  const origProtoPostMessage = OriginalWorker.prototype.postMessage;
+  OriginalWorker.prototype.postMessage = function (msg) {
+    handleOutgoingMessage(msg);
+    return origProtoPostMessage.apply(this, arguments);
   };
+
+  const origProtoAddEventListener = OriginalWorker.prototype.addEventListener;
+  OriginalWorker.prototype.addEventListener = function (type, listener, opts) {
+    if (type === 'message') {
+      const wrappedListener = function (event) {
+        handleIncomingEvent(event);
+        return listener.apply(this, arguments);
+      };
+      return origProtoAddEventListener.call(this, type, wrappedListener, opts);
+    }
+    return origProtoAddEventListener.apply(this, arguments);
+  };
+
+  // 2. Monkey-patch Constructor and instances
+  window.Worker = function (scriptUrl, options) {
+    const worker = new OriginalWorker(scriptUrl, options);
+
+    const instPostMessage = worker.postMessage.bind(worker);
+    worker.postMessage = function (msg) {
+      handleOutgoingMessage(msg);
+      return instPostMessage.apply(this, arguments);
+    };
+
+    const instAddEventListener = worker.addEventListener.bind(worker);
+    worker.addEventListener = function (type, listener, opts) {
+      if (type === 'message') {
+        const wrappedListener = function (event) {
+          handleIncomingEvent(event);
+          return listener.apply(this, arguments);
+        };
+        return instAddEventListener.call(this, type, wrappedListener, opts);
+      }
+      return instAddEventListener.apply(this, arguments);
+    };
+
+    return worker;
+  };
+  window.Worker.prototype = OriginalWorker.prototype;
 })();
