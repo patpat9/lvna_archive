@@ -89,6 +89,11 @@
 
         let bonus = 0;
 
+        // Foundational reference pages (History, Guides, Activities, LVNA Governance) receive a priority bonus
+        if (!sec.location.startsWith('Villager/Issues/')) {
+          bonus += 5000;
+        }
+
         // 1. Exact Full Continuous Phrase Match
         if (fullStr.includes(normQuery)) {
           bonus += 1000000;
